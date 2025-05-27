@@ -15,7 +15,7 @@ app.get('/api/search', async (req, res) => {
   }
 
   try {
-    const response = await axios.get('https://serpapi.com/search.json', {
+    const response = await axios.get('https://serpapi.com/search', {
       params: {
         q: query,
         api_key: e701f5719d68ea1e26cd019955b25bc01bb5d447b0e64c13795b26a5d8c5f22a,
